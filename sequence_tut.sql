@@ -16,30 +16,32 @@ SELECT * FROM table_name;
 
 
 
--- Output:
+/* 
+Output:
 
--- CREATE SEQUENCE
---  nextval 
--- ---------
---        1
--- (1 row)
+CREATE SEQUENCE
+ nextval 
+---------
+       1
+(1 row)
 
---  nextval 
--- ---------
---        2
--- (1 row)
+ nextval 
+---------
+       2
+(1 row)
 
---        List of tablespaces
---     Name    |  Owner   | Location 
--- ------------+----------+----------
---  pg_default | postgres | 
---  pg_global  | postgres | 
--- (2 rows)
+       List of tablespaces
+    Name    |  Owner   | Location 
+------------+----------+----------
+ pg_default | postgres | 
+ pg_global  | postgres | 
+(2 rows)
 
--- CREATE TABLE
--- ALTER SEQUENCE
--- INSERT 0 1
---  id | name 
--- ----+------
---   3 | ford
--- (1 row)
+CREATE TABLE
+ALTER SEQUENCE
+INSERT 0 1
+ id | name 
+----+------
+  3 | ford
+(1 row)
+*/
